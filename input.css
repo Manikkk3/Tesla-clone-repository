@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'M PLUS 1p', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.button{
+    font-family: 'Poppins', sans-serif;
+}
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="input.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Poppins:ital,wght@0,300;1,300&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+    <link rel="shortcut icon" href="images/teslafavicon.ico" type="image/x-icon">
+    <title>Electric Cars,Solar & Clean Energy | Tesla</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class=" fixed container mx- p-6 max-w-full">
+        <!--flex container-->
+        <div class="  flex ll:items-center    justify-between  text-sm ">
+            <!--logo-->
+            <div class="relative pt-0">
+                <img src="images/teslalogo.svg" alt="" class="w-40">
+            </div>
+
+            <!--Center nav-->
+            <div class="hidden  ll:block space-x-2">
+                <a href="#" class="cursor-pointer font-semibold   px-4 py-1 rounded
+                hover:backdrop-brightness-150">Model S</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Model 3</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Model X</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Model Y</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Solar Roof</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Solar Panels</a>
+            </div> 
+            
+            <!--Side nav-->
+            <div class="hidden  ll:flex  space-x-2">
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 roundedv">Shop</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Account</a>
+                <a href="#" class="cursor-pointer font-semibold  px-4 py-1 rounded">Menu</a>
+
+            </div>
+
+            <!--hamburger   Icon-->
+            
+            <button id="menu-btn" class="block 
+             hamburger -mr-5 font-bold transition ease-in  rounded ll:hidden focus:outline-none  bg-sky-200 text-black p-2">Menu</button>
+            
+
+       
+
+            <!-- Mobile menu-->
+            <div id="mobile-menu" class="w-80 hidden ll:hidden">
+                <div id="menu" class="flex flex-col w-72 transition ease-in items-center self-end py-8 h-auto
+                space-y-2.5 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md overscroll-contain -mt-4 mb-1 mr-10 ease-in">
+                <button id="close-btn" class="block 
+                hamburger p-2 rounded  self-end -mr-14 -mt-4 mx-5  ll:hidden focus:outline-none  bg-red-200 p-2">Close</button>
+                <a href="#" class="cursor-pointer font-semibold  hover:bg-contrast-50 px-16">Model S</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Model 3</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Model X</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Model Y</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Solar Roof</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Solar Panels</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Existing Inventory</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Used Inventory</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Trade-In</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Test Drive</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Insurance</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Powerwall</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Commercial Energy</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Utilities</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Charging</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Find Us</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Support</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Investor Relations</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">Shop</a>
+                <a href="#" class="cursor-pointer font-semibold  hover:opacity-75">Account</a>
+                <a href="#" class="cursor-pointer font-semibold hover:opacity-75">More              ></a>
+
+                </div>
+
+            </div>
+
+          
+
+        </div>
+
+    </nav>
+
+    
+
+
+
+    <!--Model 3 section-->
+    <section class="bg-Model3 h-screen   bg-center bg-cover"> 
+           <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+                <div class="content ">
+                    <h1 class="font-bold text-4xl  pb-3">Model 3</h1>
+                    <a href="#" class="font-semibold underline underline-offset-8 hover:decoration-2   text-sm">Schedule a Test Drive</a>
+                </div>
+                
+                <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                    <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-white rounded-md md:px-16">Custom Order</button>
+                    <button class="p-3 px-14 ll:px-16 py-3 text-black text-bold bg-gray-200 text-black rounded-md">Existing Inventory</button>
+
+                </div>
+           </div>
+        
+    </section>
+
+    <!--Model Y-->
+    <section class="bg-ModelY h-screen  bg-center bg-cover"> 
+        <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+            <div class="content ">
+                <h1 class="font-bold text-4xl  pb-3">Model Y</h1>
+                <a href="#" class="font-semibold underline underline-offset-8 hover:decoration-2   text-sm">Schedule a Test Drive</a>
+            </div>
+            
+            <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-white rounded-md md:px-16">Custom Order</button>
+                <button class="p-3 px-14 ll:px-16 py-3 text-black text-bold bg-gray-200 text-black rounded-md">Existing Inventory</button>
+
+            </div>
+       </div>
+        
+    </section>
+
+    <!--Model S-->
+    <section class="bg-ModelS h-screen  bg-center bg-cover"> 
+        <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+            <div class="content ">
+                <h1 class="font-bold text-4xl  pb-3">Model S</h1>
+                <a href="#" class="font-semibold underline underline-offset-8 hover:decoration-2   text-sm">Schedule a Test Drive</a>
+            </div>
+            
+            <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-white rounded-md md:px-16">Custom Order</button>
+                <button class="p-3 px-14 ll:px-16 py-3 text-black text-bold bg-gray-200 text-black rounded-md">Existing Inventory</button>
+
+            </div>
+       </div>  
+        
+    </section>
+
+    <!--Model X-->
+    <section class="bg-ModelX h-screen  bg-center bg-cover"> 
+        <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+            <div class="content ">
+                <h1 class="font-bold text-4xl  pb-3">Model X</h1>
+                <a href="#" class="font-semibold underline underline-offset-8 hover:decoration-2   text-sm">Schedule a Test Drive</a>
+            </div>
+            
+            <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-white rounded-md md:px-16">Custom Order</button>
+                <button class="p-3 px-14 ll:px-16text-black text-bold bg-gray-200 text-black rounded-md">Existing Inventory</button>
+
+            </div>
+       </div>
+        
+    </section>
+
+    <!--Solar Panels-->
+    <section class="bg-SolarPanels h-screen  bg-center bg-cover"> 
+        <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+            <div class="content ">
+                <h1 class="font-bold text-4xl  pb-3">Solar Panels</h1>
+                <a href="#" class="font-semibold     text-sm">Lowest Cost Solar Panels in America</a>
+            </div>
+            
+            <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-white rounded-md md:px-16">Order Now</button>
+                <button class="p-3 px-16 ll:px-16 py-3 text-black text-bold bg-gray-200 text-black rounded-md">Learn More</button>
+
+            </div>
+       </div>
+        
+    </section>
+
+    <!--Solar Roof-->
+    <section class="bg-SolarRoof h-screen  bg-center bg-cover"> 
+        <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+            <div class="content ">
+                <h1 class="font-bold text-4xl  pb-3">Solar Roof</h1>
+                <a href="#" class="font-semibold  hover:decoration-2   text-sm">Produce Clean Energy</a>
+                <a href="#" class="font-semibold  hover:decoration-2   text-sm">From Your Roof</a>
+            </div>
+            
+            <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-white rounded-md md:px-16">Order Now</button>
+                <button class="p-3 px-16 ll:px-16 py-3 text-black text-bold bg-gray-200 text-black rounded-md">Learn More</button>
+
+            </div>
+       </div>
+        
+    </section>
+
+    <!--Accessories-->
+    <section class="bg-Accessories  h-screen w-full bg-center bg-cover mx-auto"> 
+        <div class="container flex flex-col items-center justify-center space-y-96 h-screen w-screen text-center mx-auto">  
+            <div class="content ">
+                <h1 class="font-bold text-4xl  pb-3">Accessories</h1>
+            </div>
+            
+            <div class="flex flex-col flex-wrap button space-y-4 space-x-0 items-center justify-center md:flex-row md:space-y-0 md:space-x-16">
+                <button class=" p-3 items-stretch px-16 max-w-full py-3  text-bold bg-gray-600 text-black rounded-md md:px-16">Shop Now</button>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="container flex  flex-col md:flex-row items-center justify-center flex-wrap mx-auto space-x-0 md:space-x-6 p-6">
+            <a href="#" class="font-lighter text-sm text-gray-700">Tesla &copy;2022</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">Privacy & Legal</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">Vehicle Recalls</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">Contact</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">Careers</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">News</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">Engage</a>
+            <a href="#" class="font-lighter text-sm text-gray-700">Locations</a>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

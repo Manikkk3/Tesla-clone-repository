@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'Model3' : "url('images/model-3.JPG')",
+        'Model3' : "url('images/model-3.jpg')",
         'ModelY' : "url('images/model-y.jpg')",
         'ModelS' : "url('images/model-s.jpg')",
         'ModelX' : "url('images/model-x.jpg')",

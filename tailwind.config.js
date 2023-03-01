@@ -11,13 +11,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'Model3' : "url('./images/model-3.jpg')",
-        'ModelY' : "url('./images/model-y.jpg')",
-        'ModelS' : "url('./images/model-s.jpg')",
-        'ModelX' : "url('./images/model-x.jpg')",
-        'SolarPanels' : "url('./images/solarpanels.jpg')",
-        'SolarRoof' : "url('./images/roof.jpg')",
-        'Accessories' : "url('./images/accessories.jpg')",
+        'Model3' : "url('../images/model-3.jpg')",
+        'ModelY' : "url('../images/model-y.jpg')",
+        'ModelS' : "url('../images/model-s.jpg')",
+        'ModelX' : "url('../images/model-x.jpg')",
+        'SolarPanels' : "url('../images/solarpanels.jpg')",
+        'SolarRoof' : "url('../images/roof.jpg')",
+        'Accessories' : "url('../images/accessories.jpg')",
       }
     },
   },
